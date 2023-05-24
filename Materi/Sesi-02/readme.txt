@@ -5,3 +5,4 @@ Summar sesi 02
 - Membuat portfolio sederhana
 - Memasukkan gambar dari link google dan lokal
 - Pemahaman form form html
+- Mengerjakan tugas mandiri sesi 2
