@@ -1,0 +1,39 @@
+bagaimana cara menjalankan kipas angin :
+---
+flow :
+1. yang pertama, siapkan kipas angin, dan hubungkan kabel nya ke listrik/terminal
+2. kedua, pilih kecepatan kipas anginnya antara 1 sampai 3
+3. ketiga, atur apakah kipas anginnya berputar atau tidak
+4. kipas angin berhasil dihidupkan
+
+pseducode :
+if (kipas angin == "terhubung ke listrik") :
+    echo "1. sudah terhubung ke listrik"
+else
+    echo "1. belum terhubung ke listrik"
+
+input kecepatan kipas angin (1, 2, atau 3)
+
+if (kecepatan == 1)
+    echo "2. kecepatan kipas angin lambat"
+else if (kecepatan == 2)
+    echo "2. kecepatan kipas angin sedang"
+else if (kecepatan == 3)
+    echo "2. kecepatan kipas angin cepat"
+
+if (kipas angin == "berputar") :
+    echo "3. Kipas angin berputar"
+else
+    echo "3. Kipas angin tidak berputar
+
+---
+- algoritma
+- rumus keliling lingkaran
+- perhitungan
+    - operator aritmatika (reference googling)
+- output perhitungan
+    - hasil akhir
+    
+----------------------------
+waktu nya : 15 menit
+----------------------------

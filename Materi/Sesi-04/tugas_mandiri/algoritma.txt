@@ -1,0 +1,21 @@
+Algoritma :
+1. Mulai
+2. Deklarasi nilai phi dengan nilai 3.14
+3. Memasukkan nilai jari-jari
+4. Melakukan perhitungan luas dan keliling
+5. Hasil
+
+Pseudocode :
+
+READ AND SAVE "jari-jari"
+READ AND SAVE "phi" with VALUE "3.14"
+COMPUTE "phi" multiply by "radius" multiply by "radius" as "luas"
+COMPUTE "2" multiply by "phi' multiply by "radius" as "keliling"
+SHOW the computation results
+
+Perhitungan :
+Luas = phi * jari-jari * jari-jari
+Keliling = 2 * phi * jari-jari
+
+Hasil perhitungan :
+ditampilkan ke html atau console.log
