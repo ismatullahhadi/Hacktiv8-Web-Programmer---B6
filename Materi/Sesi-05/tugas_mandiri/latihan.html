@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Mandiri Sesi 05</title>
+</head>
+<body>
+    <label>Pesan : </label><input id="pesan"><br>
+    <label>Berapa kali : </label><input type="number" id="jumlah"><br>
+    <button onclick="cetak()">Cetak!</button>
+    <ol id="list"></ol>
+
+    <script>
+        function cetak() {
+            // deklarasi output ordered list
+            const dt = document.getElementById("list")
+            
+            // deklarasi pengambilan element input dari html
+            pesan = document.getElementById("pesan").value
+            jumlah = parseInt(document.getElementById("jumlah").value);
+            
+            // perulangan pesan
+            for (let i = 0; i < jumlah; i++) {
+                dt.innerHTML = dt.innerHTML + `<li>${pesan}</li>`
+            }
+        }
+    </script>
+</body>
+</html>
