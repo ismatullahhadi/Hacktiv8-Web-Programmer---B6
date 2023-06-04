@@ -75,7 +75,7 @@ section {
 
 .active {
   display: block;
-  animation: appear 0s ease-in-out;
+  animation: appear 1s ease-in-out;
   transform: translateY(0) scaleY(1);
 }
 @keyframes appear {
@@ -185,10 +185,10 @@ section {
   -o-object-fit: cover;
      object-fit: cover;
   transition: all 0.4s ease-in-out;
-  filter: grayscale(100%);
+  filter: blur(5px);
 }
 .header-content .left-header .image img:hover {
-  filter: grayscale(0);
+  filter: blur(0px);
 }
 .header-content .right-header {
   display: flex;
@@ -462,7 +462,7 @@ section {
 
 .blogs {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   margin-top: 3rem;
 }
@@ -479,7 +479,7 @@ section {
   transition: all 0.4s ease-in-out;
 }
 .blogs .blog:hover img {
-  filter: grayscale(0);
+  filter: grayscale(0) blur(0);
   transform: scale(1.1);
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.8);
 }
@@ -490,7 +490,7 @@ section {
      object-fit: cover;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  filter: grayscale(100%);
+  filter: grayscale(100%) blur(1px);
   transition: all 0.4s ease-in-out;
 }
 .blogs .blog .blog-text {
@@ -570,11 +570,18 @@ section {
 .contact-content-con .left-contact .contact-icon a:hover i {
   color: var(--color-primary);
 }
+.contact-content-con .left-contact .contact-icon a:hover img {
+  filter: invert(100%);
+}
 .contact-content-con .left-contact .contact-icon a i {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.3rem;
+}
+.contact-content-con .left-contact .contact-icon a img {
+  width: 25px;
+  height: 25px;
 }
 .contact-content-con .right-contact {
   flex: 3;
